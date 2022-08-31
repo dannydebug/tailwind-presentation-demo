@@ -1,0 +1,76 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./index.html", "./src/**/*.{vue,ts,tsx,js,jsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+      },
+      colors: {
+        blue: {
+          lightest: "#edeef6",
+          lighter: "#dbdded",
+          light: "#7077b7",
+          DEFAULT: "#4c55a5",
+          dark: "#3d4484",
+          darker: "#2e3363",
+          darkest: "#080810",
+        },
+        babyblue: {
+          lightest: "#f4faff",
+          lighter: "#E9F6FF",
+          light: "#b0e6ff",
+          DEFAULT: "#91d5ff",
+          dark: "#74AACC",
+          darker: "#577F99",
+          darkest: "#1D2A33",
+        },
+        teal: {
+          lightest: "#eaf8f7",
+          lighter: "#ccedeb",
+          light: "#4CC0B8",
+          DEFAULT: "#00a59b",
+          dark: "#00847B",
+          darker: "#00635C",
+          darkest: "#00100F",
+        },
+        red: {
+          lightest: "#FAE7E8",
+          lighter: "#F5CFD2",
+          light: "#ff7875",
+          DEFAULT: "#cf1322",
+          dark: "#a8071a",
+          darker: "#7C0B14",
+          darkest: "#140103",
+        },
+        green: {
+          lightest: "#EDF9E8",
+          lighter: "#DCF3D1",
+          light: "#86D55E",
+          DEFAULT: "#52C41A",
+          dark: "#429C14",
+          darker: "#31750F",
+          darkest: "#081302",
+        },
+        gray: {
+          lightest: "#fff",
+          lighter: "#f5f5f5",
+          light: "#c6c6c6",
+          DEFAULT: "#8c8c8c",
+          dark: "#707070",
+          darker: "#545454",
+          darkest: "#000000",
+        },
+        orange: {
+          lightest: "#FEF3E7",
+          lighter: "#FEE8D0",
+          light: "#FBA344",
+          DEFAULT: "#fa8c16",
+          dark: "#C87011",
+          darker: "#96540D",
+          darkest: "#190E02",
+        },
+      },
+    },
+  },
+};
