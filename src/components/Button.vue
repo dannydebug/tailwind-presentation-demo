@@ -22,5 +22,12 @@
   &:active {
     @apply bg-blue-dark;
   }
+
+  /* You can also use tailwind variants/modifiers instead of nesting pseudo class selectors.
+  Although, sometimes nesting can produce a bit more readable result.
+
+  @apply hover:bg-blue-light hover:border-blue-light;
+  @apply focus:bg-blue-light focus:border-blue-light focus:ring-blue-dark focus:ring-2;
+  @apply active:bg-blue-dark; */
 }
 </style>

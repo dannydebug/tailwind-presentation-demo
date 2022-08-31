@@ -12,9 +12,11 @@ The biggest maintainability concern when using a utility-first classes is managi
 Solution:
 
 - Reusable components with some JS framework.
-- Using `@apply` directive in CSS to take Tailwind classes and compose them into a single class name.
+- Using `@apply` directive in CSS to take Tailwind classes and compose them into a single class name. Earlier it wasn't possible to use variants for different states - like `hover:bg-blue` etc. in `@apply` blocks, but in the newer Tailwind version it is.
 
 Best practices:
 - Create reusable components
 - Use layout classes in your template
 - Combine more specific styles under a custom class with `@apply`
+
+
